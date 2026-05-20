@@ -1,0 +1,477 @@
+# Tradução PT-BR para x-ui
+# Autor: Tradução Portuguesa do Brasil
+
+common:
+  success: "Sucesso"
+  failed: "Falhou"
+  error: "Erro"
+  warning: "Aviso"
+  info: "Informação"
+  confirm: "Confirmar"
+  cancel: "Cancelar"
+  save: "Salvar"
+  delete: "Excluir"
+  edit: "Editar"
+  add: "Adicionar"
+  search: "Pesquisar"
+  reset: "Redefinir"
+  submit: "Enviar"
+  close: "Fechar"
+  loading: "Carregando..."
+  yes: "Sim"
+  no: "Não"
+  enable: "Ativar"
+  disable: "Desativar"
+  status: "Status"
+  action: "Ação"
+  operations: "Operações"
+  total: "Total"
+  none: "Nenhum"
+  unknown: "Desconhecido"
+  copy: "Copiar"
+  copied: "Copiado!"
+  refresh: "Atualizar"
+  upload: "Enviar"
+  download: "Baixar"
+  export: "Exportar"
+  import: "Importar"
+  clear: "Limpar"
+
+# ==================== LOGIN ====================
+login:
+  title: "Login"
+  username: "Usuário"
+  password: "Senha"
+  login: "Entrar"
+  logout: "Sair"
+  remember: "Lembrar-me"
+  username_placeholder: "Digite o usuário"
+  password_placeholder: "Digite a senha"
+  login_success: "Login realizado com sucesso"
+  login_failed: "Usuário ou senha incorretos"
+  logout_success: "Logout realizado com sucesso"
+
+# ==================== MENU ====================
+menu:
+  home: "Início"
+  inbounds: "Inbounds"
+  xray: "Configurações Xray"
+  settings: "Configurações do Painel"
+  panel_settings: "Configurações"
+  logout: "Sair"
+
+# ==================== DASHBOARD ====================
+dashboard:
+  title: "Painel Principal"
+  system_status: "Status do Sistema"
+  app_status: "Status da Aplicação"
+  xray_status: "Status do Xray"
+  cpu_usage: "Uso de CPU"
+  memory_usage: "Uso de Memória"
+  disk_usage: "Uso do Disco"
+  network_io: "I/O de Rede"
+  network_send: "Enviado"
+  network_recv: "Recebido"
+  uptime: "Tempo Online"
+  xray_version: "Versão do Xray"
+  xray_running: "Xray em Execução"
+  xray_stopped: "Xray Parado"
+  start_xray: "Iniciar Xray"
+  stop_xray: "Parar Xray"
+  restart_xray: "Reiniciar Xray"
+  total_traffic: "Tráfego Total"
+  sent_traffic: "Tráfego Enviado"
+  recv_traffic: "Tráfego Recebido"
+  online_users: "Usuários Online"
+  running: "Em execução"
+  stopped: "Parado"
+  days: "dias"
+  hours: "horas"
+  minutes: "minutos"
+  seconds: "segundos"
+
+# ==================== INBOUNDS ====================
+inbound:
+  title: "Lista de Inbounds"
+  add: "Adicionar Inbound"
+  edit: "Editar Inbound"
+  delete: "Excluir Inbound"
+  delete_confirm: "Tem certeza que deseja excluir este inbound?"
+  enable: "Ativar"
+  disable: "Desativar"
+  remark: "Observação"
+  remark_placeholder: "Digite uma observação"
+  protocol: "Protocolo"
+  port: "Porta"
+  listen: "Escutar"
+  listen_placeholder: "Deixe vazio para escutar em todos os IPs"
+  total_traffic: "Tráfego Total"
+  up_traffic: "Upload"
+  down_traffic: "Download"
+  expire_date: "Data de Expiração"
+  expire_days: "Dias para Expirar"
+  no_expire: "Sem expiração"
+  traffic_gb: "Tráfego (GB)"
+  no_limit: "Sem limite"
+  status: "Status"
+  enabled: "Ativo"
+  disabled: "Inativo"
+  expired: "Expirado"
+  traffic_exceeded: "Tráfego excedido"
+  client_count: "Clientes"
+  online_count: "Online"
+  reset_traffic: "Resetar Tráfego"
+  reset_traffic_confirm: "Tem certeza que deseja resetar o tráfego deste inbound?"
+  reset_all_traffic: "Resetar Todo Tráfego"
+  reset_all_confirm: "Tem certeza que deseja resetar TODO o tráfego?"
+  copy_link: "Copiar Link"
+  qrcode: "QR Code"
+  export_links: "Exportar Links"
+  add_success: "Inbound adicionado com sucesso"
+  edit_success: "Inbound atualizado com sucesso"
+  delete_success: "Inbound excluído com sucesso"
+  enable_success: "Inbound ativado com sucesso"
+  disable_success: "Inbound desativado com sucesso"
+  reset_success: "Tráfego resetado com sucesso"
+  
+  # Configurações de protocolo
+  settings: "Configurações"
+  stream_settings: "Configurações de Stream"
+  sniffing: "Sniffing"
+  
+  # Colunas da tabela
+  col_status: "Status"
+  col_remark: "Observação"
+  col_port: "Porta"
+  col_protocol: "Protocolo"
+  col_traffic: "Tráfego"
+  col_expire: "Expiração"
+  col_clients: "Clientes"
+  col_action: "Ação"
+
+# ==================== CLIENTES ====================
+client:
+  title: "Gerenciar Clientes"
+  add: "Adicionar Cliente"
+  edit: "Editar Cliente"
+  delete: "Excluir Cliente"
+  delete_confirm: "Tem certeza que deseja excluir este cliente?"
+  email: "Email/ID"
+  email_placeholder: "Identificador único do cliente"
+  uuid: "UUID"
+  generate_uuid: "Gerar UUID"
+  password: "Senha"
+  generate_password: "Gerar Senha"
+  traffic_limit: "Limite de Tráfego"
+  traffic_limit_gb: "Limite de Tráfego (GB)"
+  expire_date: "Data de Expiração"
+  no_expire: "Sem expiração"
+  no_limit: "Sem limite"
+  enable: "Ativar"
+  disable: "Desativar"
+  reset_traffic: "Resetar Tráfego"
+  reset_confirm: "Tem certeza que deseja resetar o tráfego deste cliente?"
+  add_success: "Cliente adicionado com sucesso"
+  edit_success: "Cliente atualizado com sucesso"
+  delete_success: "Cliente excluído com sucesso"
+  reset_success: "Tráfego do cliente resetado"
+  online: "Online"
+  offline: "Offline"
+  total_used: "Tráfego Utilizado"
+  ip_limit: "Limite de IPs"
+  ip_limit_placeholder: "0 = sem limite"
+  tg_id: "ID do Telegram"
+  sub_id: "ID de Assinatura"
+  comment: "Comentário"
+
+# ==================== CONFIGURAÇÕES DO XRAY ====================
+xray:
+  title: "Configurações do Xray"
+  save: "Salvar Configurações"
+  reset: "Restaurar Padrão"
+  save_success: "Configurações do Xray salvas com sucesso"
+  reset_success: "Configurações restauradas ao padrão"
+  restart_required: "É necessário reiniciar o Xray para aplicar as alterações"
+  restart_now: "Reiniciar Agora"
+  restart_later: "Reiniciar Depois"
+  editor: "Editor de Configuração"
+  format: "Formatar JSON"
+  validate: "Validar Configuração"
+  valid: "Configuração válida"
+  invalid: "Configuração inválida"
+
+# ==================== CONFIGURAÇÕES DO PAINEL ====================
+settings:
+  title: "Configurações do Painel"
+  save: "Salvar"
+  save_success: "Configurações salvas com sucesso"
+  restart_required: "Reinicie o painel para aplicar as alterações"
+  
+  # Painel
+  panel_settings: "Configurações Gerais"
+  web_port: "Porta do Painel"
+  web_port_placeholder: "Porta de acesso ao painel (padrão: 54321)"
+  web_base_path: "Caminho Base"
+  web_base_path_placeholder: "Ex: /painel"
+  web_domain: "Domínio"
+  web_domain_placeholder: "Domínio para acesso ao painel"
+  username: "Usuário"
+  username_placeholder: "Nome de usuário do painel"
+  password: "Senha"
+  password_placeholder: "Senha do painel"
+  
+  # Segurança
+  security_settings: "Configurações de Segurança"
+  secret_enable: "Ativar Token Secreto"
+  secret_token: "Token Secreto"
+  
+  # Certificado SSL
+  ssl_settings: "Configurações SSL"
+  cert_file: "Arquivo de Certificado"
+  cert_file_placeholder: "Caminho do arquivo .crt ou .pem"
+  key_file: "Arquivo de Chave"
+  key_file_placeholder: "Caminho do arquivo .key"
+  
+  # Configurações de Tráfego
+  traffic_settings: "Configurações de Tráfego"
+  traffic_day: "Dia de Reset do Tráfego"
+  traffic_day_placeholder: "Dia do mês para reset (1-31)"
+  
+  # Telegram Bot
+  tg_settings: "Configurações do Telegram"
+  tg_enable: "Ativar Bot do Telegram"
+  tg_token: "Token do Bot"
+  tg_token_placeholder: "Token do BotFather"
+  tg_chat_id: "Chat ID"
+  tg_chat_id_placeholder: "ID do chat para notificações"
+  tg_admin_id: "ID do Admin"
+  tg_admin_id_placeholder: "ID do Telegram do administrador"
+  tg_run_time: "Horário de Execução"
+  tg_run_time_placeholder: "Cron expression (ex: @daily)"
+  tg_login_notify: "Notificar Login"
+  tg_cpu_threshold: "Limite de CPU (%)"
+  tg_bandwidth_notify: "Notificar Limite de Banda"
+  
+  # Banco de dados
+  db_settings: "Banco de Dados"
+  db_backup: "Backup do Banco de Dados"
+  db_restore: "Restaurar Banco de Dados"
+  db_backup_success: "Backup realizado com sucesso"
+  db_restore_success: "Banco de dados restaurado com sucesso"
+  db_restore_confirm: "Tem certeza? Esta ação irá substituir todos os dados atuais!"
+  
+  # Atualização
+  update_settings: "Atualizações"
+  check_update: "Verificar Atualizações"
+  current_version: "Versão Atual"
+  latest_version: "Versão Mais Recente"
+  update_available: "Atualização disponível"
+  up_to_date: "Sistema atualizado"
+  update_now: "Atualizar Agora"
+  update_confirm: "Tem certeza que deseja atualizar? O painel será reiniciado."
+  update_success: "Atualização realizada com sucesso"
+  
+  # Subscription
+  sub_settings: "Configurações de Assinatura"
+  sub_enable: "Ativar Assinatura"
+  sub_port: "Porta da Assinatura"
+  sub_path: "Caminho da Assinatura"
+  sub_domain: "Domínio da Assinatura"
+  sub_cert: "Certificado SSL"
+  sub_key: "Chave SSL"
+  sub_update_interval: "Intervalo de Atualização"
+  sub_encode: "Codificar Links"
+  sub_show_info: "Mostrar Informações"
+
+# ==================== PROTOCOLOS ====================
+protocol:
+  vmess: "VMess"
+  vless: "VLESS"
+  trojan: "Trojan"
+  shadowsocks: "Shadowsocks"
+  socks: "SOCKS"
+  http: "HTTP"
+  wireguard: "WireGuard"
+  
+# ==================== TRANSPORTE ====================
+transport:
+  title: "Tipo de Transporte"
+  tcp: "TCP"
+  kcp: "mKCP"
+  ws: "WebSocket"
+  http: "HTTP/2"
+  quic: "QUIC"
+  grpc: "gRPC"
+  httpupgrade: "HTTPUpgrade"
+  splithttp: "SplitHTTP"
+  
+  # WebSocket
+  ws_path: "Caminho WS"
+  ws_path_placeholder: "Caminho do WebSocket (ex: /ws)"
+  ws_headers: "Headers"
+  ws_host: "Host"
+  
+  # TCP
+  tcp_type: "Tipo de Cabeçalho TCP"
+  tcp_none: "Nenhum"
+  tcp_http: "HTTP"
+  tcp_request_path: "Caminho da Requisição"
+  
+  # gRPC
+  grpc_service_name: "Nome do Serviço"
+  grpc_service_placeholder: "Nome do serviço gRPC"
+  grpc_mode: "Modo gRPC"
+  grpc_gun: "gun"
+  grpc_multi: "multi"
+  
+  # mKCP
+  kcp_mtu: "MTU"
+  kcp_tti: "TTI"
+  kcp_up_cap: "Cap Upload"
+  kcp_down_cap: "Cap Download"
+  kcp_congestion: "Congestionamento"
+  kcp_read_buffer: "Buffer de Leitura"
+  kcp_write_buffer: "Buffer de Escrita"
+  kcp_header: "Tipo de Cabeçalho"
+  kcp_seed: "Semente"
+  
+  # QUIC
+  quic_security: "Segurança QUIC"
+  quic_key: "Chave QUIC"
+  quic_header: "Tipo de Cabeçalho"
+
+# ==================== SEGURANÇA TLS ====================
+tls:
+  title: "Configurações TLS"
+  security: "Segurança"
+  none: "Nenhum"
+  tls: "TLS"
+  reality: "Reality"
+  xtls: "XTLS"
+  
+  # TLS
+  server_name: "Server Name (SNI)"
+  server_name_placeholder: "Domínio do certificado"
+  cert_file: "Arquivo de Certificado"
+  cert_file_placeholder: "Caminho do certificado"
+  key_file: "Arquivo de Chave"
+  key_file_placeholder: "Caminho da chave privada"
+  alpn: "ALPN"
+  fingerprint: "Fingerprint"
+  allow_insecure: "Permitir Inseguro"
+  
+  # Reality
+  reality_dest: "Destino"
+  reality_dest_placeholder: "Ex: microsoft.com:443"
+  reality_server_names: "Server Names"
+  reality_server_names_placeholder: "Domínios permitidos"
+  reality_private_key: "Chave Privada"
+  reality_public_key: "Chave Pública"
+  reality_short_ids: "Short IDs"
+  reality_spiderx: "Spider X"
+  generate_keys: "Gerar Chaves"
+  
+  # Fingerprints
+  fp_chrome: "Chrome"
+  fp_firefox: "Firefox"
+  fp_safari: "Safari"
+  fp_ios: "iOS"
+  fp_android: "Android"
+  fp_edge: "Edge"
+  fp_360: "360"
+  fp_qq: "QQ"
+  fp_random: "Aleatório"
+  fp_randomized: "Aleatorizado"
+
+# ==================== SNIFFING ====================
+sniffing:
+  title: "Sniffing"
+  enable: "Ativar Sniffing"
+  dest_override: "Substituição de Destino"
+  http: "HTTP"
+  tls: "TLS"
+  quic: "QUIC"
+  fakedns: "FakeDNS"
+
+# ==================== ALERTAS E MENSAGENS ====================
+message:
+  confirm_delete: "Tem certeza que deseja excluir?"
+  confirm_reset: "Tem certeza que deseja resetar?"
+  confirm_restart: "Tem certeza que deseja reiniciar?"
+  operation_success: "Operação realizada com sucesso"
+  operation_failed: "Falha na operação"
+  network_error: "Erro de rede, verifique sua conexão"
+  server_error: "Erro no servidor"
+  invalid_input: "Entrada inválida"
+  required_field: "Este campo é obrigatório"
+  port_range: "A porta deve estar entre 1 e 65535"
+  invalid_uuid: "UUID inválido"
+  invalid_email: "Email inválido"
+  
+# ==================== NOTIFICAÇÕES TELEGRAM ====================
+telegram:
+  login_notify: "🔐 Login detectado no painel\nIP: {ip}\nHorário: {time}"
+  cpu_notify: "⚠️ Uso de CPU alto: {cpu}%"
+  expired_notify: "⚠️ Inbound expirado: {remark}"
+  traffic_notify: "⚠️ Tráfego excedido: {remark}"
+  
+  bot_commands:
+    start: "Iniciar o bot"
+    status: "Ver status do sistema"
+    enable: "Ativar inbound"
+    disable: "Desativar inbound"
+    add: "Adicionar inbound"
+    del: "Excluir inbound"
+    list: "Listar inbounds"
+    info: "Informações do bot"
+    help: "Mostrar ajuda"
+    
+  messages:
+    welcome: "🤖 Bem-vindo ao painel x-ui!\n\nUse /help para ver os comandos disponíveis."
+    help: |
+      📋 Comandos disponíveis:
+      
+      /status - Status do sistema
+      /list - Listar todos os inbounds
+      /info - Informações do servidor
+      /help - Esta mensagem
+    status: |
+      📊 Status do Sistema
+      
+      🖥️ CPU: {cpu}%
+      💾 Memória: {mem_used}/{mem_total}
+      💿 Disco: {disk_used}/{disk_total}
+      ⬆️ Upload: {up}
+      ⬇️ Download: {down}
+      ⏱️ Uptime: {uptime}
+      
+      🔄 Xray: {xray_status}
+      📦 Versão: {xray_version}
+    no_permission: "❌ Você não tem permissão para usar este bot."
+    invalid_command: "❌ Comando inválido. Use /help para ver os comandos disponíveis."
+
+# ==================== ERROS ====================
+error:
+  not_found: "Não encontrado"
+  unauthorized: "Não autorizado. Faça login novamente."
+  forbidden: "Acesso negado"
+  server_error: "Erro interno do servidor"
+  bad_request: "Requisição inválida"
+  port_in_use: "Porta já em uso"
+  invalid_config: "Configuração inválida"
+  
+# ==================== UNIDADES ====================
+unit:
+  b: "B"
+  kb: "KB"
+  mb: "MB"
+  gb: "GB"
+  tb: "TB"
+  day: "dia"
+  days: "dias"
+  hour: "hora"
+  hours: "horas"
+  minute: "minuto"
+  minutes: "minutos"
+  second: "segundo"
+  seconds: "segundos"
